@@ -14,7 +14,7 @@ Temperature
 
 https://makecode.microbit.org/reference/input/temperature
 
-![Image](RP1.png)
+![Image Temperature](RP1.png)
 
 This project is related to mine because it shows directly how the temperature function in the Micro Bit works.
 
@@ -32,7 +32,7 @@ Indoor Outdoor Thermometer
 
 https://microbit.org/projects/make-it-code-it/indoor-outdoor-thermometer/
 
-![Image](RP3.png)
+![Image3](RP3.png)
 
 This project is related to mine because it uses one microbit to show multiple variables in different ways.
 
@@ -41,7 +41,7 @@ Micro Morse Phone
 
 https://make.techwillsaveus.com/microbit/activities/micro-morse-phone
 
-![Image](RP4.png)
+![Imag4e](RP4.png)
 
 This project is related to mine because it gave me the overall idea for my project with micro bit + morse code.
 
@@ -50,7 +50,7 @@ Morse Code (On Screen)
 
 https://makecode.microbit.org/courses/csintro/radio/activity
 
-![Image](RP5.png)
+![Image5](RP5.png)
 
 This project is related to mine because it showed how to show morse code on the screen of the micro bit - which I was using at the start of the process to prototype my idea.
 
@@ -59,7 +59,7 @@ Morse Code Beacon
 
 https://microbit.hackster.io/snap-bit/snap-bit-morse-code-beacon-25fec3
 
-![Image](RP6.png)
+![Image6](RP6.png)
 
 This project is related to mine because it shows how to translate morse code into a light pattern with the Micro Bit.
 
@@ -108,13 +108,13 @@ This project is related to mine because it shows how to translate morse code int
 
 Starting with the general idea, I knew that I wanted to have the temperature display on the screen. I tested how this would work first by making it appear on the screen of my microbit in the simulator like this: 
 
-![Image](PD1.png)
+![Image11](PD1.png)
 
 This was now displaying the temperature of the microbit on the simulator, I imported this code onto the physical microbit by pairing it to my device and having them connected. Through testing I found that the micro bits temperature never went below 28 degrees, and higher than 35. This gave me my baseline for the temperatures I would be using for the remainder of the project.
 
 I then continued with the project, following the tutorial on microbit, I managed to have the microbit display the temperature on the display abnd (instead of using a servo motor to turn a gauge, as I lacked these materials) I had it turn on a green light when it was below 30 degrees, a yellow light when it was above 30 but below 34 + a fan, and a red light + the fan continues when its over 35. Unfortunately the code for this was lost, however, photos and videos of the project can be found below:
 
-![Image](PD4.jpeg)
+![Image44](PD4.jpeg)
 
 Video of it working: https://photos.app.goo.gl/e9KHD2anZB9oBSSZ6
 
@@ -124,26 +124,26 @@ My immediate plan was to have the microbit display the temperature in an impract
 
 Now I started writing the code - I found that I could do it one of two ways. The short way or the long way. The short way looked like this (this is the code from related project 6 that I brought across): 
 
-![Image](PD2.png)
+![Imag22e](PD2.png)
 
 While this works - I wanted to have more individual control over the pauses between the dots and lines that the code produces. So I ended up making my own (much longer) version. Which looks like this:
 
-![Image](PD3.png)
+![Image33](PD3.png)
 
 This code is so long that I can't fit even half of it into the screenshot. The reason I made the code this way, is that if something goes wrong I can change every minor detail, rather than trying to fix an overlying issue. I made sure to write all the pins to P0 (as this is where my light will go) and found the 500 ms gaps makes effective dots, and a 1000 ms gap makes good lines. There is also a 2000 ms gap between the two numbers. Once the two numbers are displayed in morse, a 3000 ms gap is placed to breakup the timing and allows the viewer to mentally 'reset'. For an idea of how long this code is, here is the code fully zoomed out, in multiple screenshots:
 
 
-![Image](PD5.png)
+![Image55](PD5.png)
 
-![Image](PD6.png)
+![Image66](PD6.png)
 
-![Image](PD7.png)
+![Image77](PD7.png)
 
-![Image](PD8.png)
+![Image88](PD8.png)
 
 I also added a failsafe to check the temperature is working correctly, by pressing any of the two buttons on the microbit, the microbit itself shows the temperature on the screen. As well as this, in the code I added an on start check that makes sure the light is turned off. This is to ensure no false readings. The main section of this code can be found below:
 
-![Image](PD9.png)
+![Image99](PD9.png)
 
 
 ## Project outcome ##
