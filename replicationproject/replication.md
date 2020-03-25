@@ -149,9 +149,9 @@ I also added a failsafe to check the temperature is working correctly, by pressi
 
 Now that the code is all finished, I just had to build it on the microbit. For all intents and purposes the wiring of this is very simple. A single red light, the positive going the Pin 0, the negative going through a resistor to the ground. Simple as that. The final product of the wiring can be seen here:
 
-![ImageBit](PD10.jpg)
+![ImageBit](PD11.jpg)
 
-![ImageBit2](PD11.jpg)
+![ImageBit2](PD10.jpg)
 
 I then tested the code on the micro bit, and hooray! It worked! Here's the link to the video of working:
 
