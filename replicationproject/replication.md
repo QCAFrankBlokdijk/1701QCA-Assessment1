@@ -169,25 +169,19 @@ Morse Cold is an interactive temperature gauge, that shows the current temperatu
 
 ### Showcase image ###
 
-*Try to capture the image as if it were in a portfolio, sales material, or project proposal. The project isn't likely to be something that finished, but practice making images that capture the project in that style.*
-
-![Image](missingimage.png)
+![Image](Showcase1.JPG)
 
 ### Additional view ###
 
-*Provide some other image that gives a viewer a different perspective on the project such as more about how it functions, the project in use, or something else.*
-
-![Image](missingimage.png)
+![Image](Showcase2.JPG)
 
 ### Reflection ###
 
-*Describe the parts of your project you felt were most successful and the parts that could have done with improvement, whether in terms of outcome, process, or understanding.*
 
+I felt that my code was very successful, while rather clunky and long winded I feel that it did its job well. I feel like my product design could have been better, while I had ideas for better final products I was ultimately limited in my work without access to the resources that the university provides.
 
-*What techniques, approaches, skills, or information did you find useful from other sources (such as the related projects you identified earlier)?*
+The techniques presented in the related projects I found were invaluable in finishing my final product. Without the rudimentary code of the morse code beacon I wouldn't have had the idea in the first place to make the code longer and more precise. The approach that project and those of the official micro bit site were also remarkably helpful in making my final product. As they were easy to follow and understand.
 
+An interesting extension of this project would be to add multiple lights, have a light that indicates the stop of a word or breaks between numbers. This would be a nice extension and would also not be too challenging to implement. This project specifically could also be used for large scale, far away temperature metres. For example, in the same way that a lighthouse guides boats, it could be used to identify the temperature of the surrounding water for fisherman.
 
-*What ideas have you read, heard, or seen that informed your thinking on this project? (Provide references.)*
-
-
-*What might be an interesting extension of this project? In what other contexts might this project be used?*
+Ultimately I'm rather happy with how my final product came out, regardless of the limitations put in place by limited access to the university, I still find my project endearing. The cardboard aesthetic of the box lends itself well to the contents, and adds to the 'funny' aspect of the impracticality of the final product.
