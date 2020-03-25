@@ -1,10 +1,9 @@
 # Assessment 1: Replication project
 
-*Fill out the following workbook with information relevant to your project.*
-
-*Markdown reference:* [https://guides.github.com/features/mastering-markdown/](http://guides.github.com/features/mastering-markdown/)
 
 ## Temperature Gauge: The Engaugening of Morse ##
+### Morse Cold ###
+
 The link to the original version of this project can be found here: https://www.hackster.io/anish78/how-to-create-temperature-gauge-using-micro-bit-a601cc
 
 ## Related projects ##
@@ -70,31 +69,55 @@ This project is related to mine because it shows how to translate morse code int
 
 *What I thought before: Describe something that you thought or believed before you read the source that was challenged by the reading.*
 
+I can't say that I've ever particularly thought about the 'experience' of something. The way Don Norman talks about the experience of using their favourite car made me rethink my previous thought.
+
 *What I learned: Describe what you now know or believe as a result of the reading. Don't just describe the reading: write about what changed in YOUR knowledge.*
+
+In particular what changed about my knowledge is that when designing a product, I'm going to have to think about what the product 'feels' like, not just the practicality of it. While this can be frustrating, it makes an interesting distinction between practicallity of an object and the emotional feelings that the product brings.
 
 *What I would like to know more about: Describe or write a question about something that you would be interested in knowing more about.*
 
+How does the emotional attachment to an object (i.e. a roomba) change the experience of it? Could you argue that a sentimental attachment is stronger than the pleasurable experience of using it?
+
 *How this relates to the project I am working on: Describe the connection between the ideas in the reading and one of your current projects or how ideas in the reading could be used to improve your project.*
+
+I'll really have to think about the experience that my product delivers! Is it frustrating, simple, fun? These questions are now important.
 
 ### Reading: Chapter 1 of Dan Saffer, Microinteractions: Designing with Details, Chapter 1 ###
 
 *What I thought before: Describe something that you thought or believed before you read the source that was challenged by the reading.*
 
+Well, I've absolutely NEVER thought about microinteractions for a start. So learning about them was definitely something new!
+
 *What I learned: Describe what you now know or believe as a result of the reading. Don't just describe the reading: write about what changed in YOUR knowledge.*
+
+That microinteractions are the small pieces of functionality around us, they're the things that we know are there but really never think too much about. They are intuitive and natural. By paying attention to them as a designer you can create A+ user experiences.
 
 *What I would like to know more about: Describe or write a question about something that you would be interested in knowing more about.*
 
+How far can you go? Is there a point where it just feels like too much for the user?
+
 *How this relates to the project I am working on: Describe the connection between the ideas in the reading and one of your current projects or how ideas in the reading could be used to improve your project.*
+
+Unfortunately this doesn't relate directly to my project, however it is deginitely an interesting reading. And the use of microinteractions can absolutely be used in further assessment.
 
 ### Reading: Scott Sullivan, Prototyping Interactive Objects ###
 
 *What I thought before: Describe something that you thought or believed before you read the source that was challenged by the reading.*
 
+Really, I had the same thought process as Scott Sullivan. My father is a programmer, so I've always found these sorts of things interesting but also very intimidating! Hearing the same story from another person solidified my belief that anyone can do this!
+
 *What I learned: Describe what you now know or believe as a result of the reading. Don't just describe the reading: write about what changed in YOUR knowledge.*
+
+By becoming familiar with physical prototyping, you also become more familiar with general product design. By using these prototypes you see what you need to change and what works!
 
 *What I would like to know more about: Describe or write a question about something that you would be interested in knowing more about.*
 
+Could you use a prototype not as an actual prototype, but as a way to gather information? Sort of a pre-prototype. I.E. if you're making a wearable device, wear a prototype version to understand exactly what you need.
+
 *How this relates to the project I am working on: Describe the connection between the ideas in the reading and one of your current projects or how ideas in the reading could be used to improve your project.*
+
+Prototyping my design will be imperetive to its final outcome, by prototyping several times, it can end up being a much better final product!
 
 
 ## Interaction flowchart ##
