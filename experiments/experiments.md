@@ -38,7 +38,7 @@ This experiment could be the basis of a real world application such as dimmable 
 
 ![Image](PD4.JPG)
 
-(An extension of this project, however the same code/ principles apply.)
+(An extension of this project, however the same code/ principles apply. You can see the fan at the bottom of the image.)
 
 #### Reflection ####
 
