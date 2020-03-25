@@ -198,6 +198,10 @@ Morse Cold is an interactive temperature gauge, that shows the current temperatu
 
 ![Image](Showcase2.JPG)
 
+### Project Video ###
+
+https://youtu.be/NqeR2QapA68
+
 ### Reflection ###
 
 
