@@ -14,7 +14,7 @@ Temperature
 
 https://makecode.microbit.org/reference/input/temperature
 
-![Image Temperature](RP1.png)
+![Image Temperature](RP1.PNG)
 
 This project is related to mine because it shows directly how the temperature function in the Micro Bit works.
 
@@ -41,7 +41,7 @@ Micro Morse Phone
 
 https://make.techwillsaveus.com/microbit/activities/micro-morse-phone
 
-![Imag4e](RP4.png)
+![Imag4e](RP4.PNG)
 
 This project is related to mine because it gave me the overall idea for my project with micro bit + morse code.
 
@@ -50,7 +50,7 @@ Morse Code (On Screen)
 
 https://makecode.microbit.org/courses/csintro/radio/activity
 
-![Image5](RP5.png)
+![Image5](RP5.PNG)
 
 This project is related to mine because it showed how to show morse code on the screen of the micro bit - which I was using at the start of the process to prototype my idea.
 
@@ -59,14 +59,12 @@ Morse Code Beacon
 
 https://microbit.hackster.io/snap-bit/snap-bit-morse-code-beacon-25fec3
 
-![Image6](RP6.png)
+![Image6](RP6.PNG)
 
 This project is related to mine because it shows how to translate morse code into a light pattern with the Micro Bit.
 
 ## Reading reflections ##
-*Reflective reading is an important part of actually making your reading worthwhile. Don't just read the words to understand what they say: read to see how the ideas in the text fit with and potentially change your existing knowledge and maybe even conceptual frameworks. We assume you can basically figure out what the readings mean, but the more important process is to understand how that changes what you think, particularly in the context of your project.*
 
-*For each of the assigned readings, answer the questions below.*
 
 ### Reading: Don Norman, The Design of Everyday Things, Chapter 1 (The Psychopathology of Everyday Things) ###
 
@@ -102,19 +100,19 @@ This project is related to mine because it shows how to translate morse code int
 ## Interaction flowchart ##
 
 
-![Image](flowchart.png)
+![Image](flowchart.PNG)
 
 ## Process documentation
 
 Starting with the general idea, I knew that I wanted to have the temperature display on the screen. I tested how this would work first by making it appear on the screen of my microbit in the simulator like this: 
 
-![Image11](PD1.png)
+![Image11](PD1.PNG)
 
 This was now displaying the temperature of the microbit on the simulator, I imported this code onto the physical microbit by pairing it to my device and having them connected. Through testing I found that the micro bits temperature never went below 28 degrees, and higher than 35. This gave me my baseline for the temperatures I would be using for the remainder of the project.
 
 I then continued with the project, following the tutorial on microbit, I managed to have the microbit display the temperature on the display abnd (instead of using a servo motor to turn a gauge, as I lacked these materials) I had it turn on a green light when it was below 30 degrees, a yellow light when it was above 30 but below 34 + a fan, and a red light + the fan continues when its over 35. Unfortunately the code for this was lost, however, photos and videos of the project can be found below:
 
-![Image44](PD4.jpeg)
+![Image44](PD4.JPG)
 
 Video of it working: https://photos.app.goo.gl/e9KHD2anZB9oBSSZ6
 
@@ -124,37 +122,50 @@ My immediate plan was to have the microbit display the temperature in an impract
 
 Now I started writing the code - I found that I could do it one of two ways. The short way or the long way. The short way looked like this (this is the code from related project 6 that I brought across): 
 
-![Imag22e](https://github.com/QCAFrankBlokdijk/1701QCA-Assessment1/blob/master/replicationproject/PD2.PNG)
+![Imag22e](PD2.PNG)
 
 While this works - I wanted to have more individual control over the pauses between the dots and lines that the code produces. So I ended up making my own (much longer) version. Which looks like this:
 
-![Image33](https://github.com/QCAFrankBlokdijk/1701QCA-Assessment1/blob/master/replicationproject/PD3.PNG)
+![Image33](PD3.PNG)
 
 This code is so long that I can't fit even half of it into the screenshot. The reason I made the code this way, is that if something goes wrong I can change every minor detail, rather than trying to fix an overlying issue. I made sure to write all the pins to P0 (as this is where my light will go) and found the 500 ms gaps makes effective dots, and a 1000 ms gap makes good lines. There is also a 2000 ms gap between the two numbers. Once the two numbers are displayed in morse, a 3000 ms gap is placed to breakup the timing and allows the viewer to mentally 'reset'. For an idea of how long this code is, here is the code fully zoomed out, in multiple screenshots:
 
 
-![Image55](PD5.png)
+![Image55](PD5.PNG)
 
-![Image66](PD6.png)
+![Image66](PD6.PNG)
 
-![Image77](PD7.png)
+![Image77](PD7.PNG)
 
-![Image88](PD8.png)
+![Image88](PD8.PNG)
+
+##You can also find the code at this link, as that'll be much easier to view:##
+
+https://github.com/QCAFrankBlokdijk/1701QCA-Assessment1/blob/master/replicationproject/microbit-Temperature-Gauge.hex
 
 I also added a failsafe to check the temperature is working correctly, by pressing any of the two buttons on the microbit, the microbit itself shows the temperature on the screen. As well as this, in the code I added an on start check that makes sure the light is turned off. This is to ensure no false readings. The main section of this code can be found below:
 
-![Image99](PD9.png)
+![Image99](PD9.PNG)
 
+Now that the code is all finished, I just had to build it on the microbit. For all intents and purposes the wiring of this is very simple. A single red light, the positive going the Pin 0, the negative going through a resistor to the ground. Simple as that. The final product of the wiring can be seen here:
+
+![ImageBit](PD10.JPG)
+
+![ImageBit2](PD11.JPG)
+
+I then tested the code on the micro bit, and hooray! It worked! Here's the link to the video of working:
+
+https://photos.app.goo.gl/gBSL7Wpch76fmNBM9
+
+Now that I know the code works, I had to start thinking about how I was going to package it. Not only do I have to think about the fact that the whole microbit + light has to fit into the final object, I also have to think about the fact that the final product will have to have a morse code sheet on it! Mostly because I think its fair to assume that most people in 2020 don't know morse code. So, I found a cardboard box, made it a whole bunch smaller and popped it in there with a hole in the top to see the light! See the project outcome for the final result!
 
 ## Project outcome ##
 
-*Complete the following information.*
-
-### Project title ###
+### Morse Cold ###
 
 ### Project description ###
 
-*In a few sentences, describe what the project is and does, who it is for, and a typical use case.*
+Morse Cold is an interactive temperature gauge, that shows the current temperature in the most impractical way possible! Morse Code (Or Cold - get it!) This product, at its core, is a toy. More specifically a desk toy, the simplicity of its design and code means that it can be sold for dirt cheap as a silly toy for a persons desk.
 
 ### Showcase image ###
 
