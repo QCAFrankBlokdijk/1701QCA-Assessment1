@@ -100,7 +100,7 @@ This project is related to mine because it shows how to translate morse code int
 ## Interaction flowchart ##
 
 
-![Image](flowchart.PNG)
+![Image](Flowchart.PNG)
 
 ## Process documentation
 
@@ -128,7 +128,7 @@ While this works - I wanted to have more individual control over the pauses betw
 
 ![Image33](PD3.PNG)
 
-This code is so long that I can't fit even half of it into the screenshot. The reason I made the code this way, is that if something goes wrong I can change every minor detail, rather than trying to fix an overlying issue. I made sure to write all the pins to P0 (as this is where my light will go) and found the 500 ms gaps makes effective dots, and a 1000 ms gap makes good lines. There is also a 2000 ms gap between the two numbers. Once the two numbers are displayed in morse, a 3000 ms gap is placed to breakup the timing and allows the viewer to mentally 'reset'. For an idea of how long this code is, here is the code fully zoomed out, in multiple screenshots:
+This code is so long that I can't fit even half of it into the screenshot. The reason I made the code this way, is that if something goes wrong I can change every minor detail, rather than trying to fix an overlying issue. I made sure to write all the pins to P0 (as this is where my light will go) and found that 500 ms gaps makes effective dots, and a 1000 ms gap makes good lines. There is also a 2000 ms gap between the two numbers. Once the two numbers are displayed in morse, a 3000 ms gap is placed to breakup the timing and allows the viewer to mentally 'reset'. For an idea of how long this code is, here is the code fully zoomed out, in multiple screenshots:
 
 
 ![Image55](PD5.PNG)
@@ -139,7 +139,7 @@ This code is so long that I can't fit even half of it into the screenshot. The r
 
 ![Image88](PD8.PNG)
 
-##You can also find the code at this link, as that'll be much easier to view:##
+##You can also find the code at this link, as that'll be much easier to view##
 
 https://github.com/QCAFrankBlokdijk/1701QCA-Assessment1/blob/master/replicationproject/microbit-Temperature-Gauge.hex
 
