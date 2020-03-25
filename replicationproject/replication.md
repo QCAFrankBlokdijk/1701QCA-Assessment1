@@ -4,21 +4,65 @@
 
 *Markdown reference:* [https://guides.github.com/features/mastering-markdown/](http://guides.github.com/features/mastering-markdown/)
 
-## Replication project choice ##
-(Insert the name of the project you chose to replicate.)
+## Temperature Gauge: The Engaugening of Morse ##
+The link to the original version of this project can be found here: https://www.hackster.io/anish78/how-to-create-temperature-gauge-using-micro-bit-a601cc
 
 ## Related projects ##
 *Find about 6 related projects to the project you choose. A project might be related through  function, technology, materials, fabrication, concept, or code. Don't forget to place an image of the related project in the* `replicationproject` *folder and insert the filename in the appropriate places below. Copy the markdown block of code below for each project you are showing, updating the number* `1` *in the subtitle for each.*
 
 ### Related project 1 ###
-(Insert name of project)
+Temperature
 
-(Insert URL to project)
+https://makecode.microbit.org/reference/input/temperature
 
-![Image](missingimage.png)
+![Image](RP1.png)
 
-This project is related to mine because (insert reasons here).
+This project is related to mine because it shows directly how the temperature function in the Micro Bit works.
 
+### Related project 2 ###
+Max-min thermometer
+
+https://microbit.org/projects/make-it-code-it/max-min-thermometer/
+
+![Image](RP2.png)
+
+This project is related to mine because it shows how to use the temperature feature in practical and useful ways + reinforces the uyse of temperature based variables.
+
+### Related project 3 ###
+Indoor Outdoor Thermometer
+
+https://microbit.org/projects/make-it-code-it/indoor-outdoor-thermometer/
+
+![Image](RP3.png)
+
+This project is related to mine because it uses one microbit to show multiple variables in different ways.
+
+### Related project 4 ###
+Micro Morse Phone
+
+https://make.techwillsaveus.com/microbit/activities/micro-morse-phone
+
+![Image](RP4.png)
+
+This project is related to mine because it gave me the overall idea for my project with micro bit + morse code.
+
+### Related project 5 ###
+Morse Code (On Screen)
+
+https://makecode.microbit.org/courses/csintro/radio/activity
+
+![Image](RP5.png)
+
+This project is related to mine because it showed how to show morse code on the screen of the micro bit - which I was using at the start of the process to prototype my idea.
+
+### Related project 6 ###
+Morse Code Beacon
+
+https://microbit.hackster.io/snap-bit/snap-bit-morse-code-beacon-25fec3
+
+![Image](RP6.png)
+
+This project is related to mine because it shows how to translate morse code into a light pattern with the Micro Bit.
 ## Reading reflections ##
 *Reflective reading is an important part of actually making your reading worthwhile. Don't just read the words to understand what they say: read to see how the ideas in the text fit with and potentially change your existing knowledge and maybe even conceptual frameworks. We assume you can basically figure out what the readings mean, but the more important process is to understand how that changes what you think, particularly in the context of your project.*
 
@@ -67,6 +111,7 @@ This project is related to mine because (insert reasons here).
 *This should have quite a lot of information!*
 
 *There will likely by a dozen or so images of the project under construction. The images should help explain why you've made the choices you've made as well as what you have done. Use the code below to include images, and copy it for each image, updating the information for each.*
+
 
 ![Image](missingimage.png)
 
