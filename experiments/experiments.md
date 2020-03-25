@@ -6,81 +6,75 @@
 
 #### Photo of completed project ####
 
-![Image](missingimage.png)
+![Image](KE1.PNG)
 
-(Insert a caption here)
+Code for this project
 
 #### Reflection ####
 
-In this experiment, something new to me was or something I learned was (insert something here).
+In this experiment, something new to me was or something I learned was how to connect the micro bit, getting used to pairing and understanding what the blocks are and how they work.
 
-This experiment could be the basis of a real world application such as (insert something here).
+This experiment could be the basis of a real world application such as, essentially everything. This is the basis of the micro bit.
 
-### Experiment name ###
+### Dimming an LED using a Potentiometer ###
 
-(Replace this with the experiment name)
 
 #### Photo of completed project ####
-In the code below, replace imagemissing.jpg with the name of the image, which should be in the kitexperiments folder.
 
-![Image](missingimage.png)
+![Image](KE2.PNG)
 
-(Insert a caption here)
+(Image from Kitronik - but mine was essentially the exact same)
 
 #### Reflection ####
 
-In this experiment, something new to me was or something I learned was (insert something here).
+In this experiment, something new to me was or something I learned was how the breadboard works, and how and why resistors need to be used when lights are a part of the circuit.
 
-This experiment could be the basis of a real world application such as (insert something here).
+This experiment could be the basis of a real world application such as dimmable light switches.
 
-### Experiment name ###
+### Using a Transistor to Drive a Motor ###
 
-(Replace this with the experiment name)
 
 #### Photo of completed project ####
-In the code below, replace imagemissing.jpg with the name of the image, which should be in the kitexperiments folder.
 
-![Image](missingimage.png)
+![Image](PD4.JPG)
 
-(Insert a caption here)
+(An extension of this project, however the same code/ principles apply.)
 
 #### Reflection ####
 
-In this experiment, something new to me was or something I learned was (insert something here).
+In this experiment, something new to me was or something I learned was how to use and power a motor.
 
-This experiment could be the basis of a real world application such as (insert something here).
+This experiment could be the basis of a real world application such as tabletop fans.
 
-### Experiment name ###
+### Setting The Tone With A Piezzo Buzzer ###
 
-(Replace this with the experiment name)
 
 #### Photo of completed project ####
-In the code below, replace imagemissing.jpg with the name of the image, which should be in the kitexperiments folder.
 
-![Image](missingimage.png)
 
-(Insert a caption here)
+![Image](KE3.PNG)
+
+(Image once again from Kitroniks, I used the exact same circuit for mine.)
 
 #### Reflection ####
 
-In this experiment, something new to me was or something I learned was (insert something here).
+In this experiment, something new to me was or something I learned was consolidating my knowledge of the breadboard and how to make noise with the buzzer.
 
-This experiment could be the basis of a real world application such as (insert something here).
+This experiment could be the basis of a real world application such as speakers or alarm systems.
 
-### Experiment name ###
+### Using a light sensore & analog inputs ###
 
-(Replace this with the experiment name)
+
 
 #### Photo of completed project ####
-In the code below, replace imagemissing.jpg with the name of the image, which should be in the kitexperiments folder.
 
-![Image](missingimage.png)
+![Image](KE4.PNG)
 
-(Insert a caption here)
+(Image of breadboard from the handbook - didn't get a photo of this one.)
 
 #### Reflection ####
 
-In this experiment, something new to me was or something I learned was (insert something here).
+In this experiment, something new to me was or something I learned was how the sensores in the microbit work and how to set variables to use in the code.
 
-This experiment could be the basis of a real world application such as (insert something here).
+This experiment could be the basis of a real world application such as closing blinds when its night time.
 
