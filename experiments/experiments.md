@@ -51,7 +51,6 @@ This experiment could be the basis of a real world application such as tabletop 
 
 #### Photo of completed project ####
 
-
 ![Image](KE3.jpg)
 
 (Image once again from Kitroniks, I used the exact same circuit for mine.)
@@ -71,6 +70,10 @@ This experiment could be the basis of a real world application such as speakers 
 ![Image](KE4.PNG)
 
 (Image of breadboard from the handbook - didn't get a photo of this one. However was completed in Week 2 with the substitute tutor.)
+
+![Image](KE5.PNG)
+
+(My code for this project.)
 
 #### Reflection ####
 
