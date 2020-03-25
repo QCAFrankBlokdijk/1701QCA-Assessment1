@@ -133,13 +133,13 @@ Starting with the general idea, I knew that I wanted to have the temperature dis
 
 This was now displaying the temperature of the microbit on the simulator, I imported this code onto the physical microbit by pairing it to my device and having them connected. Through testing I found that the micro bits temperature never went below 28 degrees, and higher than 35. This gave me my baseline for the temperatures I would be using for the remainder of the project.
 
-I then continued with the project, following the tutorial on microbit, I managed to have the microbit display the temperature on the display abnd (instead of using a servo motor to turn a gauge, as I lacked these materials) I had it turn on a green light when it was below 30 degrees, a yellow light when it was above 30 but below 34 + a fan, and a red light + the fan continues when its over 35. Unfortunately the code for this was lost, however, photos and videos of the project can be found below:
+I then continued with the project, following the tutorial on microbit, I managed to have the microbit display the temperature on the display and (instead of using a servo motor to turn a gauge, as I lacked these materials) I had it turn on a green light when it was below 30 degrees, a yellow light when it was above 30 but below 34 + a fan, and a red light + the fan continues when its over 35. Unfortunately the code for this was lost, however, photos and videos of the project can be found below:
 
 ![Image44](PD4.JPG)
 
 Video of it working: https://photos.app.goo.gl/e9KHD2anZB9oBSSZ6
 
-This is the point where I wanted to start making the project my own. I felt I had a solid understanding of the code + microbit as well as how the microbits temperature gauge worked. So I set out to make my own temperature gauge project.
+This is the point where I wanted to start making the project my own. This is because I'd already spent so much time on this project, that lack of materials and access to the university wasn't going to stop me from continuing it. I felt I had a solid understanding of the code + microbit as well as how the microbits temperature gauge worked. So I set out to make my own temperature gauge project - that utilises the temperature sensor of the microbit in a different way.
 
 My immediate plan was to have the microbit display the temperature in an impractical manner, mostly because I think it would be a challenge + make for an interesting final product. This is how I settled on showing the temperature in morse code. I had the lights + the coding knowledge to pull it off, so I set right off!
 
