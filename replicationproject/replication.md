@@ -124,11 +124,11 @@ My immediate plan was to have the microbit display the temperature in an impract
 
 Now I started writing the code - I found that I could do it one of two ways. The short way or the long way. The short way looked like this (this is the code from related project 6 that I brought across): 
 
-![Imag22e](PD2.png)
+![Imag22e](https://github.com/QCAFrankBlokdijk/1701QCA-Assessment1/blob/master/replicationproject/PD2.PNG)
 
 While this works - I wanted to have more individual control over the pauses between the dots and lines that the code produces. So I ended up making my own (much longer) version. Which looks like this:
 
-![Image33](PD3.png)
+![Image33](https://github.com/QCAFrankBlokdijk/1701QCA-Assessment1/blob/master/replicationproject/PD3.PNG)
 
 This code is so long that I can't fit even half of it into the screenshot. The reason I made the code this way, is that if something goes wrong I can change every minor detail, rather than trying to fix an overlying issue. I made sure to write all the pins to P0 (as this is where my light will go) and found the 500 ms gaps makes effective dots, and a 1000 ms gap makes good lines. There is also a 2000 ms gap between the two numbers. Once the two numbers are displayed in morse, a 3000 ms gap is placed to breakup the timing and allows the viewer to mentally 'reset'. For an idea of how long this code is, here is the code fully zoomed out, in multiple screenshots:
 
