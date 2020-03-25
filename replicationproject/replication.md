@@ -1,7 +1,7 @@
 # Assessment 1: Replication project
 
 ## FOREWORD ##
-I've had to change this project due to the limitations placed on me by COVID-19 and its restrictions. Therefore, this project began as a temperature gauge, but rather than starting from scratch I've made the decision to repurpose the temperature sensore on the microbit. Therefore, this project has become something else entirely. I hope you understand.
+I've had to change this project due to the limitations placed on me by COVID-19 and its restrictions. Therefore, this project began as a temperature gauge, but rather than starting from scratch I've made the decision to repurpose the temperature sensor on the microbit. Therefore, this project has become something else entirely. I hope you understand.
 
 ## Temperature Gauge: The Engaugening of Morse ##
 ### Morse Cold ###
